@@ -2,10 +2,8 @@ const Discord = require("discord.js");
 const tokenfile = require("./tokenfile.json");
 const botconfig = require("./botconfig.json");
 const bot = new Discord.Client({disableEveryone: true});
-var weather = require('weather-js');
 
-
-let botname = "Teszt bot"
+let botname = "Phoenix Community"
 
 bot.on("ready", async() => {
     console.log(`${bot.user.username} elindult!`)
